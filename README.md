@@ -15,6 +15,6 @@ Create a simple app (using the current version of Laravel) that meets these reqs
 
 Example:
 
-Movie Title, released in 2010 (10 years ago)
-Movie Title 2, released in 2005 (15 years ago)
- .... and so on
+ - Movie Title, released in 2010 (10 years ago)
+ - Movie Title 2, released in 2005 (15 years ago)
+ - .... and so on
