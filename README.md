@@ -1,6 +1,10 @@
 # laravel-movies
 A Laravel project based off a prompt I found online
 
+### Packages in this Repo:
+ - movies 		-> a larger project based on the prompt
+ - movies-mvp 	-> a minimum viable product that hits all the checkboxes
+
 Prompt:
 
 Create a simple app (using the current version of Laravel) that meets these reqs:
