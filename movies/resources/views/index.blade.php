@@ -36,9 +36,9 @@
 
   @include('layouts.movie-card');
 
-  <section class="text-center">
+  {{-- <section class="text-center">
     <a href="#" class="btn btn-primary">Edit Movies</a>
-  </section>
+  </section> --}}
 
   </main>
 

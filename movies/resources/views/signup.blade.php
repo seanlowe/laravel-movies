@@ -3,7 +3,7 @@
 @section ('content')
     <br>
 
-    <form class="form-signin">
+    <form class="form-signin" method="POST" action="/signup">
         {{ csrf_field() }}
         
         <h1 class="h3 mb-3 font-weight-normal">Registration</h1><br>

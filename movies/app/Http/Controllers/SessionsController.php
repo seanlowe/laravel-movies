@@ -26,9 +26,9 @@ class SessionsController extends Controller
     }
 
     public function destroy() {
-        auth()-logout();
+        auth()->logout();
 
-        return redirect()->home();
+        return view('signin');
     }
 
 }
