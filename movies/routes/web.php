@@ -1,6 +1,7 @@
 <?php
 
 Route::get('/', 'MovieController@index')->name('home');
+Route::get('/edit', 'MovieController@edit');
 
 
 Route::get('/signup', 'RegistrationController@create');

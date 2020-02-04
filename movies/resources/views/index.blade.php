@@ -34,12 +34,14 @@
       </div>
   </section>
 
-  @include('layouts.movie-card');
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        @include('layouts.movie-card');
+      </div>
+    </div>
+  </div>
 
-  {{-- <section class="text-center">
-    <a href="#" class="btn btn-primary">Edit Movies</a>
-  </section> --}}
-
-  </main>
+</main>
 
 @endsection

@@ -34,7 +34,8 @@ class MovieController extends Controller
 
     public function edit(Movie $movie)
     {
-        //
+        $movies = Movie::list();
+        return view('edit', compact('movies'));
     }
 
     public function update(Request $request, Movie $movie)

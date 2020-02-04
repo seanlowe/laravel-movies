@@ -1,7 +1,6 @@
 @extends ('layouts.master')
 
 @section ('content')
-    {{-- <br><br><br><br><br><br> --}}
     
     <form class="form-signin" method="POST" action="/signin">
         {{ csrf_field() }}

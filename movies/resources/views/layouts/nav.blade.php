@@ -8,7 +8,7 @@
             
             @if (auth()->check())
                 <a class="nav-link" href="{{ url('/') }}"> Home </a>
-                <a class="nav-link" href="#"> Edit Movies </a>
+                <a class="nav-link" href=" {{ url('/edit') }} "> Edit Movies </a>
                 <a class="nav-link ml-auto" href=" {{ url('/signout') }} "> Logout </a>
             @endif
         </nav>
